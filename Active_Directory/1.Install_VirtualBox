@@ -1,0 +1,20 @@
+# Install VirtualBox
+
+## Download VirtualBox
+- Download  VirtualBox from [website](https://www.virtualbox.org/) and install.
+	- Choose download based on your OS
+<img src="https://imgur.com/n7JAvAJ" height="80%" width="80%" alt="Select Platform"/>
+
+-  Optional 
+	- Install from using package manager or software utility in Linux
+- Follow through install wizard
+- Add user to group in Linux
+	- 'sudo usermod -a -G vboxusers username'
+## Install extension (optional)
+- Download coresponding extension file to match VirtualBox version.
+	- https://download.virtualbox.org/virtualbox/7.1.4/
+		- replace version number with your version of VirtualBox
+	-  To find version in Linux run 'vboxmanage -v'
+
+<img src="https://imgur.com/mGsHUlQ" height="80%" width="80%" alt="Select Platform"/>
+<img src="https://imgur.com/XivXsan" height="80%" width="80%" alt="Select Platform"/>
