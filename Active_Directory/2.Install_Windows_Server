@@ -1,0 +1,47 @@
+# Install Windows Server
+
+## System Requirements
+- CPU: 1.4 GHz 64-bit processor
+- RAM: 2 GB (with Desktop Experience)
+- Disk Space: 32 GB
+
+## Download ISO
+- Visit Microsoft Evaluation Center and select desired edition
+- This [link](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019) for Windows Server 2019 
+![image](https://imgur.com/CeEL83f.png)
+
+## Create New VM
+- Select new in VirtualBox
+![image](https://imgur.com/7A5tzpr.png)
+- Name Machine & Leave ISO Blank
+	- Leaving ISO image blank will allow us to install the OS manually.
+	- Change Type to Microsoft Windows
+	- Change version to match Windows Server version.
+![image](https://imgur.com/CwAaJLH.png)
+- Configure hardware
+- Configure to suit your system and resource availability.
+- For my machine is used:
+	- 4 GB RAM
+	- 2 CPU
+	- 50 GB Virtual Hard Disk
+![image](https://imgur.com/0X88Kn7.png)
+![image](https://imgur.com/dQgbVYB.png)
+- Select Finish and VM will boot
+![image](https://imgur.com/lipRipf.png)
+- Select ISO file when prompted  
+- Select "Mount and Retry Boot" and installation process will begin after reboot.
+![image](https://imgur.com/vht4pKq.png)
+## Installation
+- Select language
+![image](https://imgur.com/4odsz0P.png)
+- Select Desktop Experience
+![image](https://imgur.com/nxttFbz.png)
+- Select Custom Installation (used for a fresh installation vs upgrading an existing installation)
+![image](https://imgur.com/d31SW6p.png)
+- Select Disk (created earlier at setup)
+![image](https://imgur.com/uIDC6dh.png)
+- Set administrative password
+![image](https://imgur.com/sqrdRIB.png)
+- To login, select input drop-down menu and select insert Ctrl-Alt-Del
+- Input admin password and login to Windows Server!
+![image](https://imgur.com/MHzT9Ek.png)
